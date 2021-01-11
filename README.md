@@ -12,11 +12,18 @@ Puedes ir a la sección de [Releases](https://github.com/ElrohirGT/Tank-Wars/rel
 
 # Reglas
 - El objetivo del juego es eliminar a todos los tanques enemigos, para lograr esto tienes 6 tanques pequeños y un tanque madre.
-- Todos los tanques pueden moverse y disparar, sin embargo los tanques madres pueden moverse mucho y tienen más rango que los tanques pequeños.
-- Todos los tanques solo pueden moverse y disparar a donde estén apuntando.
+- Todos los tanques pueden moverse y disparar (hacia donde apunten), sin embargo los tanques madres pueden moverse mucho y tienen más rango que los tanques pequeños.
 - Cuando un tanque pequeño mata a otros 2 tanques puede evolucionar y convertirse en un tanque madre.
 - El tanque madre cuando muere se convierte en un tanque pequeño.
 - Tienes 3 movimientos por turno, un movimiento puede ser usado en: disparar, mover una pieza, girar una pieza. Si no quieres usar todos tus movimientos puedes saltar turno, sin embargo, necesitas realizar al menos 1 movimiento para poder saltar turno.
+
+## Info tanque:
+![Imagen de la información del tanque](images/TankInfo.png)
+- Vida: La vida restante del tanque, cuando llegue a 0 el tanque muere (los tanques madres se convertirían en tanques pequeños).
+- Daño: La cantidad de daño que hace el tanque a otros cuando dispara.
+- Gasolina: La cantidad de espacios que el tanque se puede mover (son los cuadrados celestes al seleccionar un tanque).
+- Alcance: Qué tan lejos puede disparar el tanque.
+- Racha: Cuántos tanques ha matado este tanque (útil para evolucionar estratégicamente tanques pequeños).
 
 **Tablero de 4P**
 ![Imagen tablero de 4P](images/MainGame4P.png)
